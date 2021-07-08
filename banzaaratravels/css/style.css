@@ -1,46 +1,4 @@
-/* 
-/*------------------------------------------------------------------
-* Project:        Yatra
-* Author:         CN-InfoTech
-* URL:            https://themeforest.net/user/cn-infotech
-* Created:        6/24/2019
--------------------------------------------------------------------
 
-- // TABLE OF CONTENTS // -
-
-========================================================================
- 
-
- 1.* Default
- 2.* Navbar
- 3.* Header
- 4.* Slider/Banner
- 5.* Popular
- 6.* countdown
- 7.* deal
- 8.* bucket List
- 9.* Top Destination
- 10.* Testimonial
- 11.* Blog
- 12.* Partners
- 13.* Footer
- 14.* On sale
- 15.* Destination innerpage
- 16.* Detail page 
- 17.* Detail Tab page
- 18.* Destination fullwidth
- 19.* Destination 2 cols
- 20.* Trekking page
- 21.* Blog Innerpage,
- 22.* Error page
- 23.* Pricing Page
- 24.* About us
- 25.* Shop Page
- 26.* Home style 1
- 27.* Home style 2
- 28.* Responsive
-
- */
 
 @import url(https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700);
 @import url(https://fonts.googleapis.com/css?family=Mukta:300,400,600,700);
@@ -876,7 +834,7 @@ ul.nav-mini li i{color: #fff; padding-right: 5px;}
   font-size: 40px;
 }
 .upper-head{
-  background: #ffb300;
+  background: #ffc107;
   padding: 10px 0;
 }
 .header-menu{
@@ -3887,7 +3845,7 @@ section.aboutus{
 }
 .about-icon i{
   font-size: 50px;
-  color: #D60D45;
+  color: #ffc107;
   height: 60px;
   width: 60px;
   line-height: 1;
@@ -3913,7 +3871,7 @@ section.aboutus{
   transform: scale(1.2);
 }
 .team-content{
-  background: #d60d45;
+  background: #ffc107;
   width: 100%;
   margin: 0 auto;
   padding: 15px 0;
@@ -3922,8 +3880,9 @@ section.aboutus{
   text-align: center;
   transition: all ease-in-out 0.3s;
 }
+
 .team-content h3{
-  color: #fff;
+  color: #000; margin: 0px;
 }
 .team-content p{
   color: #fff;
@@ -6784,9 +6743,20 @@ section.deals.ind_tur.deals:before {
 	    color: #ffde00;
 }
 
-
-
-
+.upper-head.clearfix.iner-hader p {
+    color: #000;
+}
+span.bold.f17 {
+    font-size: 17px;
+    font-weight: 600;
+}
+p.five_line {
+    overflow: hidden !important;
+    display: -webkit-box !important;
+    -webkit-line-clamp: 5 !important;
+    -webkit-box-orient: vertical !important;
+    text-align: justify;
+}
 
 
 
