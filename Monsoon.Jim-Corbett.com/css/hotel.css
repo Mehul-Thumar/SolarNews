@@ -450,6 +450,41 @@ img.mobile_view {
 .logo.pull-left span {
     font-size: 19px !important;
 }
+.search-box.clearfix {
+    width: 84%;
+}
+.search-box h3 {
+    background: #6abe45;
+    padding: 2px 0;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+}
+.search-outer input {
+    padding: 4px 12px !important;
+}
+.search-outer label {
+    padding: 0px;
+    margin: 0px;
+    font-size: 13px;
+}
+.search-box.clearfix {
+    padding-bottom: 4px;
+}
+h2 {
+    font-size: 21px;
+}
+p {
+    font-size: 12px !important;
+}
+.day-wrapper {
+    display: none;
+}
+.timeline li {
+   
+    padding: 0px 15px 15px 15px !important;
+   
+}
 }
 
 .row.slick-slider{margin: 0 -15px;}
