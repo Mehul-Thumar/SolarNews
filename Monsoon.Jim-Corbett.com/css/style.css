@@ -110,7 +110,7 @@ aside.detail-sidebar.sidebar-wrapper{
   color: #fff;
 }
 .sidebar-helpline{
-  background: url(../images/adbg.jpg) no-repeat;
+  background: url(../img/adbg.jpg) no-repeat;
   background-size: cover;
   position: relative;
   padding: 30px;
@@ -244,4 +244,92 @@ span.bold{
 
 @media(max-width: 640px){
   .detail-content .comment-image{padding-bottom: 10px;}
+}
+
+
+/************************************
+**************************************
+*****************************************
+*********************************************/
+
+
+.top-destination-item:hover p {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
+section.trip-ad{
+  position: relative;
+  background: url(../img/adbg.jpg) no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  overflow: hidden;
+}
+
+section.trip-ad .container{position: relative; z-index: 2;}
+
+.trip-ad:before{
+  position: absolute;
+  content: '';
+  top: 0;
+  left: -12%;
+  height: 100%;
+  width: 65%;
+  background: #fff;
+  transform: skew(15deg);
+  z-index: 1;
+}
+.trip-ad:after{
+  position: absolute;
+  content: '';
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  background:rgb(0 0 0 / 18%);
+}
+.ad-title h2{
+  text-transform: uppercase;
+}
+.ad-title span{
+  display: block;
+  font-size: 40px;
+  color: #005294;
+}
+.trip-ad-btn{
+  margin-top: 32px;
+}
+.ad-price-outer{
+  position: relative;
+}
+.ad-price{
+  padding:5px; 
+  background: #D60D45;
+  border-radius: 50%;
+  box-shadow: 1px 1px 5px #000000;
+  text-align: center;
+  height: 200px;
+  width: 200px;
+  z-index: 1;
+  margin: 13% auto 0;
+}
+.ad-price-inner{
+  height: 190px;
+  width: 190px;
+  border: 1px dashed #fff;
+  border-radius: 50%;
+  padding: 45px 0;
+  background: #99062f;
+}
+.ad-price span{
+  color: #fff;
+  font-size: 25px;
+}
+span.rate{
+  display: block;
+  font-size: 50px;
+  font-weight: 600;
 }
