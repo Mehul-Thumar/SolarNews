@@ -2863,7 +2863,14 @@ section.detail-tabs{
 @media(max-width: 767px){
   section.detail-tabs .content-mobile{display: block;}
 
-  section.detail-tabs .content-desktop{display: none;}
+  section.detail-tabs .content-desktop{display: block;}
+  div#Facilities , div#gallery , div#map{
+    display: block;
+    float: left;
+    z-index: 9999;
+    opacity: 1;
+}
+
 }
 @media(max-width: 567px){
   .comment-item{display: block; text-align: center;}
@@ -6757,9 +6764,18 @@ p.five_line {
     -webkit-box-orient: vertical !important;
     text-align: justify;
 }
+.destination-fw-image img {
+    height: 165px;
+    width: 100%;
+    object-fit: cover;
+}
 
-
-
+.tab_view .nav-fill .nav-item {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 0 0 auto;
+    text-align: center;
+}
 
 
 
