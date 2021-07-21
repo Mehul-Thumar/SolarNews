@@ -1274,7 +1274,7 @@ section.popular-packages{
 .package-item{
   background: #fff;
   box-shadow: 0px 0px 15px #b7b7b785;
-  margin: 30px 0;
+  margin: 0 0 45px 0;
   transition: all ease-in-out 0.3s;
 }
 .package-content{
@@ -6776,13 +6776,25 @@ p.five_line {
     flex: 0 0 auto;
     text-align: center;
 }
-
-
-
-
-
-
-
+a.btn-red {
+    padding: 7px 18px;
+    border: 1px solid #000000;
+}
+li.nav-item.nav-link a.active.show {
+    color: #f29d02;
+}
+li.nav-item.nav-link.active a {
+    color: #000;
+}
+li.w100 {
+    width: 100% !important;
+}
+.col_fff {
+    color: #fff;
+}
+.tabs-navbar {
+    border-bottom: 1px solid #c1c1c1;
+}
 
 
 
