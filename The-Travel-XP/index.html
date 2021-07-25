@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zxx">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title> The Travel XP</title>
+      <!-- Favicon -->
+      <link rel="shortcut icon" type="image/x-icon" href="images/logo1.png">
+      <!-- Bootstrap core CSS -->
+      <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+      <!--Custom CSS-->
+      <link href="css/hotel.css" rel="stylesheet" type="text/css">
+      <!--Flaticons CSS-->
+      <link href="font/flaticon.css" rel="stylesheet" type="text/css">
+      <!--Plugin CSS-->
+      <link href="css/plugin.css" rel="stylesheet" type="text/css">
+      <!--Font Awesome-->
+      <link rel="stylesheet" href="cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   </head>
+   <body>
+      <!-- Preloader -->
+      <div id="preloader">
+         <div id="status"></div>
+      </div>
+      <!-- Preloader Ends -->
+      <!-- Header -->
+      <header>
+         <div class="upper-head clearfix">
+            <div class="container">
+               <div class="contact-info">
+                  <p><i class="flaticon-phone-call"></i> Phone: (+91)8511511038</p>
+               </div>
+               <div class="login-btn pull-right">
+                  <p><i class="flaticon-mail"></i> Mail: XPTravel @gmail.com</p>
+               </div>
+            </div>
+         </div>
+      </header>
+      <!-- Header Ends -->
+      <!-- Navigation Bar -->
+      <div class="navigation">
+         <div class="container">
+            <div class="navigation-content">
+               <div class="header_menu">
+                  <!-- start Navbar (Header) -->
+                  <nav class="navbar navbar-default navbar-sticky-function navbar-arrow">
+                     <div class="logo pull-left">
+                        <a href="index.html"><img alt="Image" src="images/xp.png"></a>
+                     </div>
+                     <div id="navbar" class="navbar-nav-wrapper">
+                        <ul class="nav navbar-nav" id="responsive-menu">
+                           <li class="active"><a href="index.html">Home</a></li>
+                           <li><a href="index.html">Destinations</a></li>
+                           <li><a href="index.html">Resorts</a></li>
+                           <li><a href="index.html">About Us</a></li>
+                           <li><a href="index.html">Contact Us</a></li>
+                           <li class="yellow_bg"><a href="index.html">Book Now</a></li>
+                        </ul>
+                     </div>
+                     <!--/.nav-collapse -->
+                     <div id="slicknav-mobile"></div>
+                  </nav>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- Navigation Bar Ends -->
+      <!-- Banner start -->
+      <section class="swiper-banner">
+         <div class="slider">
+            <div class="swiper-container">
+               <div class="swiper-wrapper">
+                  <div class="swiper-slide" style="background-image:url(images/banner1.jpg);     background-position: center;">
+                     <div class="swiper-content" data-animation="animated fadeInDown">
+                        <h2>Welcome To The Travel XP</h2>
+                        <h1>Rajaji National Park</h1>
+                        <a href="tour-detail.html" class="btn-red btn-red">Explore Room</a>
+                     </div>
+                  </div>
+                  <div class="swiper-slide" style="background-image:url(images/banner2.jpg)">
+                     <div class="swiper-content" data-animation="animated fadeInRight">
+                        <h2>Welcome To The Travel XP</h2>
+                        <h1>Jim Corbett</h1>
+                        <a href="tour-detail.html" class="btn-red btn-red">View More</a>
+                     </div>
+                  </div>
+                  <div class="swiper-slide" style="background-image:url(images/banner3.jpg)">
+                     <div class="swiper-content" data-animation="animated fadeInUp">
+                        <h2>Welcome To The Travel XP</h2>
+                        <h1>Ranthambore National Park </h1>
+                        <a href="tour-detail.html" class="btn-red btn-red">Book Now</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- Add Arrows -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="overlay"></div>
+         </div>
+         <!-- Search Box -->
+         <div class="search-box clearfix">
+            <div class="search-outer">
+               <h3 class="text-center">Quick Booking</h3>
+               <div class="search-content table_item">
+                  <form>
+                     <div class="form-group">
+                        <div class='input-group date' id='datetimepicker1'>
+                           <input type='text' class="form-control" value="Check In" />
+                           <i class="flaticon-calendar"></i>
+                           <span class="input-group-addon">
+                           <i class="fa fa-calendar" aria-hidden="true"></i>
+                           </span>
+                        </div>
+                     </div>
+                     <div class="form-group form-icon">
+                        <div class='input-group date' id='datetimepicker2'>
+                           <input type='text' class="form-control" value="Check Out" />
+                           <i class="flaticon-calendar"></i>
+                           <span class="input-group-addon">
+                           <i class="fa fa-calendar" aria-hidden="true"></i>
+                           </span>
+                        </div>
+                     </div>
+                     <div class="form-group  form-icon">
+                        <select name="custom-select-2" class="selectpicker form-control" tabindex="1">
+                           <option value="0">Guest</option>
+                           <option value="1">0</option>
+                           <option value="2">1</option>
+                           <option value="3">2</option>
+                           <option value="4">3</option>
+                           <option value="5">4</option>
+                        </select>
+                        <i class="flaticon-box"></i>
+                     </div>
+                     <div class="form-group  form-icon">
+                        <select name="custom-select-2" class="selectpicker form-control" tabindex="1">
+                           <option value="0">Room</option>
+                           <option value="1">0</option>
+                           <option value="2">1</option>
+                           <option value="3">2</option>
+                           <option value="4">3</option>
+                           <option value="5">4</option>
+                        </select>
+                        <i class="flaticon-box"></i>
+                     </div>
+                     <div class="search">
+                        <a href="#" class="btn-red btn-red">CHECK AVAILABILITY</a>
+                     </div>
+                  </form>
+               </div>
+            </div>
+         </div>
+         <!-- Search Box Ends -->
+      </section>
+      <!-- Banner Ends -->
+      <section id="mt_about">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-5 col-md-12">
+                  <!-- <div class="square-bg-block"></div> -->
+                  <div class="image-rev">
+                     <div class="blur-img" style="background-image: url(images/banner1.jpg);"></div>
+                     <img src="images/banner1.jpg" style="
+                        height: 411px;
+                        "alt="">
+                  </div>
+               </div>
+               <div class="col-lg-7 col-md-12">
+                  <div class="about_services text-left">
+                     <h3 class="text-uppercase ">Rajaji<span> National Park</span></h3>
+                     <p>Covering an area of 820.20 sq. km., this humongous national park is named after a freedom fighter and Bharat Ratna recipient - C. Rajagopalachari. This natural park is home to terrific natural beauty and wilderness, along with biodiversity in every aspect! </p>
+                     <div class=" flex">
+                        <h5 style="margin: 0px; margin-top: 22px;text-align: left;color: #ffa500;">How to reach: </h5>
+                        <p><i class="fa fa-check" aria-hidden="true"></i> By air: Closest Airport is Jolly Grant in Dehradun, which is 35 kms away. </p>
+                        <p><i class="fa fa-check" aria-hidden="true"></i>By train: Closest Train Station is Rishikesh, which is 18 kms away. </p>
+                        <p><i class="fa fa-check" aria-hidden="true"></i>By road: The park is well connected with metallic roads and is just a few hours drive away from Delhi. 
+                        </p>
+                     </div>
+                     <div class="row flex">
+                        <div class="col-md-6">
+                           <h5 style="margin: 0px; margin-top: 22px;text-align: left;color: #ffa500;">Popular accommodation options </h5>
+                           <p><i class="fa fa-check" aria-hidden="true"></i> Sam Resorts
+                           </p>
+                           <p><i class="fa fa-check" aria-hidden="true"></i> Panambi Resorts and Spa
+                           </p>
+                           <p><i class="fa fa-check" aria-hidden="true"></i> Hotel Sunshine
+                           </p>
+                           <p><i class="fa fa-check" aria-hidden="true"></i> Hotel Great Periwal
+                           </p>
+                           <p><i class="fa fa-check" aria-hidden="true"></i> Treebo Trip New Park Premium Plaza </p>
+                        </div>
+                        <div class="col-md-6 flex">
+                           <h5 style="margin: 0px; margin-top: 22px;text-align: left;color: #ffa500;">Things to do
+                           </h5>
+                           <p><i class="fa fa-check" aria-hidden="true"></i> Educational Trips
+                           </p>
+                           <p><i class="fa fa-check" aria-hidden="true"></i> Jungle Safari
+                           </p>
+                           <p><i class="fa fa-check" aria-hidden="true"></i> Photography
+                           </p>
+                           <p><i class="fa fa-check" aria-hidden="true"></i> River Rafting
+                           </p>
+                           <p><i class="fa fa-check" aria-hidden="true"></i> Spot the wilderness and the rare Royal Tiger
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="row flex" style=" margin-top: 85px;">
+               <div class="col-lg-7 col-md-12">
+                  <div class="about_services text-left">
+                     <h3 class="text-uppercase ">Jim <span> Corbett </span></h3>
+                     <p>Surf through the oldest national park of India and spot an array of different animals in this wonderful place called Jim Corbett National Park. The rich biodiversity of the park is not limited to just animals - spot countless species of flora and birds too, including the migratory birds! The mighty Kosi flowing nearby sustains the livelihood of the wilderness as well as adds a heavenly beauty to the place.</p>
+                     <div class="">
+                        <h5 style="margin: 0px; margin-top: 22px;text-align: left;color: #ffa500;">How to reach: </h5>
+                        <p><i class="fa fa-check" aria-hidden="true"></i> 
+                           By airClosest Airport is Pantnagar, which is 80 kms away. 
+                        </p>
+                        <p><i class="fa fa-check" aria-hidden="true"></i>
+                           By train: Closest Train Station is Ramnagar, which is 12 kms away. 
+                        </p>
+                        <p><i class="fa fa-check" aria-hidden="true"></i>
+                           By road: The town is well connected with metallic roads and is just a few hours drive away from Delhi. 
+                        </p>
+                     </div>
+                     <div class="row">
+                        <div class="col-md-6">
+                           <h5 style="margin: 0px; margin-top: 22px;text-align: left;color: #ffa500;">Popular accommodation options </h5>
+                           <p><i class="fa fa-check" aria-hidden="true"></i> The Madhushala Resort and Spa
+                           </p>
+                           <p><i class="fa fa-check" aria-hidden="true"></i> Riverside by Aahma
+                           </p>
+                           <p><i class="fa fa-check" aria-hidden="true"></i> Tarangi Resort
+                           </p>
+                           <p><i class="fa fa-check" aria-hidden="true"></i> Pagoda’’s Manu Maharani Resort
+                           </p>
+                           <p><i class="fa fa-check" aria-hidden="true"></i> Taj Gateway Resort
+                           </p>
+                        </div>
+                        <div class="col-md-6">
+                           <h5 style="margin: 0px; margin-top: 22px;text-align: left;color: #ffa500;">Things to do
+                           </h5>
+                           <p><i class="fa fa-check" aria-hidden="true"></i> Safari
+                           </p>
+                           <p><i class="fa fa-check" aria-hidden="true"></i> Resting in Forest Rest Houses
+                           </p>
+                           <p><i class="fa fa-check" aria-hidden="true"></i>Visit Garjia Temple
+                           </p>
+                           <p><i class="fa fa-check" aria-hidden="true"></i>Go bird watching </p>
+                           <p><i class="fa fa-check" aria-hidden="true"></i>Have riverside meals </p>
+                           <p><i class="fa fa-check" aria-hidden="true"></i>Take up adventurous activities
+                           </p>
+                           <p><i class="fa fa-check" aria-hidden="true"></i>Chill at Corbett Waterfalls
+                           </p>
+                           <p><i class="fa fa-check" aria-hidden="true"></i>  <span>See Jim Corbett’s home and personal belongings </span>
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-5 col-md-12">
+                  <!-- <div class="square-bg-block"></div> -->
+                  <div class="image-rev">
+                     <div class="blur-img" style="background-image: url(images/banner2.jpg);"></div>
+                     <img src="images/banner2.jpg" alt="">
+                  </div>
+               </div>
+            </div>
+            <div class="row flex" style=" margin-top: 85px;">
+               <div class="col-lg-5 col-md-12">
+                  <!-- <div class="square-bg-block"></div> -->
+                  <div class="image-rev">
+                     <div class="blur-img" style="background-image: url(images/banner3.jpg);"></div>
+                     <img src="images/banner3.jpg" style="
+                        height: 570px;
+                        "alt="">
+                  </div>
+               </div>
+               <div class="col-lg-7 col-md-12">
+                  <div class="about_services text-left">
+                     <h3 class="text-uppercase ">Ranthambore  <span> National Park  </span></h3>
+                     <p>An exceptional mix of history, wildlife and nature, Ranthambore National Park is truly a unique and enchanting park in the whole country. As the Ranthambore Fort, after which the park is named, shares its boundaries and creates a dazzling spot to wonder at. The park comes under the Project Tiger and these residents can even be spotted sometimes hunting their prey. The small lakes and ponds here and there keep the wilderness flourished and the beauty of the place unique. </p>
+                     <div class="">
+                     </div>
+                     <div class="row">
+                        <div class="col-md-6">
+                           <h5 style="margin: 0px; margin-top: 22px;text-align: left;color: #ffa500;">How to reach: </h5>
+                           <p><i class="fa fa-check" aria-hidden="true"></i> 
+                              By air: Closest Airport is Sanganer, which is 180 kms away. 
+                           </p>
+                           <p><i class="fa fa-check" aria-hidden="true"></i>
+                              By train: Closest Train Station is Sawai Madhopur, which is 10 kms away.  
+                           </p>
+                           <p><i class="fa fa-check" aria-hidden="true"></i>
+                              By road:The town is well connected with metallic roads and is just a few hours drive away from Delhi. 
+                           </p>
+                           <br><br>
+                           <h5 style="margin: 0px; margin-top: 22px;text-align: left;color: #ffa500;">Popular accommodation options </h5>
+                           <p><i class="fa fa-check" aria-hidden="true"></i> Ranthambore Heritage Haveli
+                           </p>
+                           <p><i class="fa fa-check" aria-hidden="true"></i> The Fern Ranthambore Forest Resort
+                           </p>
+                           <p><i class="fa fa-check" aria-hidden="true"></i> Anuraga Palace 
+                           </p>
+                           <p><i class="fa fa-check" aria-hidden="true"></i>Fateh’s Retreat
+                           </p>
+                           <p><i class="fa fa-check" aria-hidden="true"></i>Aranya Nature Resort
+                           </p>
+                        </div>
+                        <div class="col-md-6">
+                           <h5 style="margin: 0px; margin-top: 22px;text-align: left;color: #ffa500;">Things to do
+                           </h5>
+                           <p><i class="fa fa-check" aria-hidden="true"></i> 	Safari in National Park
+                           </p>
+                           <p><i class="fa fa-check" aria-hidden="true"></i> Hiking to Ranthambore Fort
+                           </p>
+                           <p><i class="fa fa-check" aria-hidden="true"></i>Go for a walk at Jogi Mahal, Lakarda and Anantpura
+                           </p>
+                           <p><i class="fa fa-check" aria-hidden="true"></i>Visit art of Ranthambore School of Art </p>
+                           <p><i class="fa fa-check" aria-hidden="true"></i>See some history at Rajiv Gandhi Regional Museum </p>
+                           <p><i class="fa fa-check" aria-hidden="true"></i>Go Birdwatching
+                           </p>
+                           <p><i class="fa fa-check" aria-hidden="true"></i>Experience God’s art at Kachida Valley
+                           </p>
+                           <p><i class="fa fa-check" aria-hidden="true"></i>Sit tight in Hot Air Balloon</p>
+                           <p><i class="fa fa-check" aria-hidden="true"></i>Visit the serene waters of Padma Talab, Surwal Lake and Malik Lake</p>
+                           <p><i class="fa fa-check" aria-hidden="true"></i>Pray at Trinetra Ganesha Temple</p>
+                           <p><i class="fa fa-check" aria-hidden="true"></i>Buy local handicrafts</p>
+                           <p><i class="fa fa-check" aria-hidden="true"></i>Enjoy with kids at Wild Dragon Adventure Park</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- Popular Packages --> 
+      <section class="services pt-5 pb-5">
+         <div class="container">
+            <h3 style="
+               text-align: center;
+               margin: 60px 0 33px 0;
+               ">OUR <span> RESORTS</span></h3>
+            <div class="row">
+               <div class="col-lg-6 mar-bottom-30">
+                  <div class="package-item">
+                     <div class="package-content">
+                        <h3>Solitaire  <span>resort</span></h3>
+                        <p>Resting on abutting backwoods, plant life, babbling of birds and stunning thunders of wild creatures, The Corbett Solitaire Resort is an optimal spot to remain at Jim Corbett National Park. Situated at the south eastern piece of National Park with the hold zone of Jhirna and Dhela Range away from urbanization, a seasonal stream invites some deers, root-burrowing wild hogs and relocating elephant crowds. Take delight in watching them all from a safe distance of a solar fenced zone, that is additionally also home to a few bird and mammalian species. 
+                           Accommodation options at this resort are: Premium Rooms, Luxury Suite Rooms.
+                        </p>
+                        <a href="hotel-detail.html" class="btn-red mar-top-20">check availability</a>
+                     </div>
+                     <img src="images/hotel/services2.jpg" alt="Image">
+                  </div>
+               </div>
+               <div class="col-lg-6 mar-bottom-30">
+                  <div class="package-item package-item1">
+                     <img src="images/hotel/services1.jpg" alt="Image">
+                     <div class="package-content">
+                        <h3><span>Jungle 
+                           </span>Treasure
+                        </h3>
+                        <p>Partake in capturing the mesmerizing views of the extraordinary environment and find what you are looking for with all the amenities you need for a lovely stay. Corbett Jungle Treasure is an ideal spot to have a fun filled getaway with companions, family and groups. From the dawn over the Himalayas to spotting wild creatures in their regular living space, every moment of the outing is entrancing. Regardless of whether it is an elephant safari, a jog ride or a jeep safari, you will have heaps of recollections to treasure. 
+                           Accommodation options at this resort are: Executive River Facing Room, Deluxe River Facing Room, Deluxe Room With River Side Balcony, Super Deluxe Garden View Room, Group Room, Family Room. 
+                        </p>
+                        <a href="hotel-detail.html" class="btn-red mar-top-20">check availability</a> 
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-lg-6 mar-bottom-30">
+                  <div class="package-item">
+                     <div class="package-content">
+                        <h3>De   <span>Florista</span></h3>
+                        <p>Plan your perfect getaway and execute it in the finest ways modern amenities and caring hospitality of De Florista. Roused by the reviving force of Mother Nature, De Floresta offers you a remaining alternative in the midst of the crude nature with an exceptionally serene environment to restore your psyche and body. With the striking mix of innovation, culture and quality assistance, the retreat ensures your visit to be a memorable one, along with the kind of stay which you will appreciate for long. 
+                           Accommodation options at this resort are: Premium Room, Luxury Cottage, Family Suite
+                        </p>
+                        <a href="hotel-detail.html" class="btn-red mar-top-20">check availability</a>
+                     </div>
+                     <img src="images/hotel/services2.jpg" alt="Image">
+                  </div>
+               </div>
+               <div class="col-lg-6 mar-bottom-30">
+                  <div class="package-item package-item1">
+                     <img src="images/hotel/services1.jpg" alt="Image">
+                     <div class="package-content">
+                        <h3><span>The  </span>Madhushaala</h3>
+                        <p>Encircled with rich Sal woodland, The Madhushaala Resort is a wonderful spot to loosen up and unwind. Mango and litchi trees embellish the scenes of Jungle Retreat, which runs for 6 acres. Observe the quietness inside the premises as the sound of birds visiting could be heard even in your rooms! Theme based on untamed wildlife and rich estate, the retreat mixes into the encompassing backwoods. Moreover, you can enjoy diverse audacious exercises like safari, stream crossing, traveling and so on.
+                           Accommodation options at this resort are: Deluxe Room, Jungle Cottages,Superior Cottages. 
+                        </p>
+                        <a href="hotel-detail.html" class="btn-red mar-top-20">check availability</a> 
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-lg-6 mar-bottom-30">
+                  <div class="package-item">
+                     <div class="package-content">
+                        <h3>Corbett 
+                           <span>Tusker Trail</span>
+                        </h3>
+                        <p>Corbett Tusker Trail promotes the quiet and serene excellence of Corbett. Situated among flora and fauna of thick wildernesses, Corbett Tusker Trail gives excellent looks at the wonderful natural surroundings of the infamous area. Apart from the untamed life and Jungle safari, there's considerably more facilities for some exciting recreational exercises. The rooms and cabins are encircled by wonderful bamboo. The retreat offers extraordinary mouth watering foods, including genuine kinds of Kumaon dishes for its visitors in a serene and alleviating verdure at Jim's eatery. 
+                           Accommodation options at this resort are: Country View, Leopard Club, Jaguar Club, Tusker Cottage.
+                        </p>
+                        <a href="hotel-detail.html" class="btn-red mar-top-20">check availability</a>
+                     </div>
+                     <img src="images/hotel/services2.jpg" alt="Image">
+                  </div>
+               </div>
+               <div class="col-lg-6 mar-bottom-30">
+                  <div class="package-item package-item1">
+                     <img src="images/hotel/services1.jpg" alt="Image">
+                     <div class="package-content">
+                        <h3><span>Tarangi 
+                           </span>Resort
+                        </h3>
+                        <p>Permit your faculties to absorb the soul of the Corbett National Park, where nature is at its absolute best as the birds sing in congruency and the lone sounds you would hear are of the murmuring breezes and sprinkling water! Find everything woven together in food, culture, craftsmanship and encounters. Arranged at the edge of the reserve with the perspectives on waterway Kosi and Sitabani woodland, Tarangi Resort and Spa is a calm shelter for nature sweethearts, photographic artists, couples, and families.
+                           Accommodation options at this resort are: Sarang, Sarang Family, Luxury Cottage, River View Cottage, Jal - The Pool Villa, Whispering River View Villa.
+                        </p>
+                        <a href="hotel-detail.html" class="btn-red mar-top-20">check availability</a> 
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-lg-6 mar-bottom-30">
+                  <div class="package-item">
+                     <div class="package-content">
+                        <h3>Wild Iris  
+                           <span>Resort</span>
+                        </h3>
+                        <p>With thick green and misty trees, mango plantation, a captivating tune of backwoods birds, Corbett Wild Iris Spa and Resort is an experience unlike any other. The resort is situated in a picturesque spot near nature, from where visitors can take in the genuine wilderness climate made by amazing environmental elements and the different greenery. This is the spot to partake in the flawless excellence and captivating wilderness of nature. Additionally, enjoy the most luscious gourmet meals with modern amenities making your stay super comfy. 
+                           Accommodation options at this resort are: Jungle Cat Cottage, Leopard Duplex, Tiger Suite, Tusker Friends & Family Suite.
+                        </p>
+                        <a href="hotel-detail.html" class="btn-red mar-top-20">check availability</a>
+                     </div>
+                     <img src="images/hotel/services2.jpg" alt="Image">
+                  </div>
+               </div>
+               <div class="col-lg-6 mar-bottom-30">
+                  <div class="package-item package-item1">
+                     <img src="images/hotel/services1.jpg" alt="Image">
+                     <div class="package-content">
+                        <h3><span>Winsome 
+                           </span>resort
+                        </h3>
+                        <p>Spread across 17 bighas, Winsome Resort is a new and your ideal stay-over stop on the Corbett trip. Settled in the core of the woodland and sitting over sections of land of the perfect views, this Jim Corbett resort has its own huge and wonderful yards proffering a true, yet extravagant experience of the wilderness. The resort offers so much - contemporary facilities, in-house eating, relaxing and amusement alternatives, multitudinous birding openings, keen nature strolls, experience, and wilderness safaris, and long periods of lazing around in the loungers, private sit-outs and sun-kissed yards.
+                           Accommodation options at this resort are: Garden View Room, Premium Room, Superior Room, Tiger Villa, Presidential Suite, Family Room.
+                        </p>
+                        <a href="hotel-detail.html" class="btn-red mar-top-20">check availability</a> 
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- Popular Packages Ends -->
+      <!-- Trip Ad -->
+      <section class="cta">
+         <div class="container">
+            <div class="cta-content text-center">
+               <div class="cta-title">
+                  <h2 class="white text-uppercase">Relax And Enjoy Your Holiday <br>@XP Travel </h2>
+               </div>
+               <div class="cta-btn">
+                  <a href="hotel-detail.html" class="btn-red btn-red">BOOK NOW</a>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- Trip Ad Ends -->
+      <!-- Testimonials -->
+      <section class="testimonials">
+         <div class="container">
+            <div class="row">
+               <div class="col-xs-12">
+                  <div class="testimonial-inner">
+                     <div class="testimonial-title text-center mar-bottom-35">
+                        <h3>CUSTOMER <span>REVIEWS</span></h3>
+                     </div>
+                     <!-- Paradise Slider -->
+                     <div id="testimonial_095" class="carousel slide testimonial_095_indicators testimonial_095_control_button thumb_scroll_x swipe_x ps_easeOutSine" data-ride="carousel">
+                        <!-- Wrapper For Slides -->
+                        <div class="carousel-inner" role="listbox">
+                           <!-- First Slide -->
+                           <div class="carousel-item active">
+                              <!-- Text Layer -->
+                              <div class="testimonial_095_slide">
+                                 <div class="testimonial-image">
+                                    <img src="images/testemonial2.jpg" alt="Image">
+                                 </div>
+                                 <div class="testi-heading text-center">
+                                    <h4 class="mar-top-10"><a href="#">Vandana Patel</a></h4>
+                                 </div>
+                                 <p>Lorem ipsum dolor sit amet consectetuer adipiscing elit am nibh unc varius facilisis eros ed erat in in velit quis arcu ornare laoreet urabitur adipiscing luctus massa nteger ut purus ac augue commodo commodo unc nec mi eu justo tempor consectetuer tiam.</p>
+                                 <div class="deal-rating">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star-o"></span>
+                                    <span class="fa fa-star-o"></span>
+                                 </div>
+                              </div>
+                              <!-- /Text Layer -->
+                           </div>
+                           <!-- /item -->
+                           <!-- End of First Slide -->
+                           <!-- Second Slide -->
+                           <div class="carousel-item">
+                              <!-- Text Layer -->
+                              <div class="testimonial_095_slide">
+                                 <div class="testimonial-image">
+                                    <img src="images/testemonial2.jpg" alt="Image">
+                                 </div>
+                                 <div class="testi-heading text-center">
+                                    <h4 class="mar-top-10"><a href="#">Vandana Patel</a></h4>
+                                 </div>
+                                 <p>Lorem ipsum dolor sit amet consectetuer adipiscing elit am nibh unc varius facilisis eros ed erat in in velit quis arcu ornare laoreet urabitur adipiscing luctus massa nteger ut purus ac augue commodo commodo unc nec mi eu justo tempor consectetuer tiam.</p>
+                                 <div class="deal-rating">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star-o"></span>
+                                    <span class="fa fa-star-o"></span>
+                                 </div>
+                              </div>
+                              <!-- /Text Layer -->
+                           </div>
+                           <!-- /item -->
+                           <!-- End of Second Slide -->
+                           <!-- Third Slide -->
+                           <div class="carousel-item">
+                              <!-- Text Layer -->
+                              <div class="testimonial_095_slide">
+                                 <div class="testimonial-image">
+                                    <img src="images/testemonial2.jpg" alt="Image">
+                                 </div>
+                                 <div class="testi-heading text-center">
+                                    <h4 class="mar-top-10"><a href="#">Vandana Patel</a></h4>
+                                 </div>
+                                 <p>Lorem ipsum dolor sit amet consectetuer adipiscing elit am nibh unc varius facilisis eros ed erat in in velit quis arcu ornare laoreet urabitur adipiscing luctus massa nteger ut purus ac augue commodo commodo unc nec mi eu justo tempor consectetuer tiam.</p>
+                                 <div class="deal-rating">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star-o"></span>
+                                    <span class="fa fa-star-o"></span>
+                                 </div>
+                              </div>
+                              <!-- /Text Layer -->
+                           </div>
+                           <!-- /item -->
+                           <!-- End of Third Slide -->
+                        </div>
+                        <!-- End of Wrapper For Slides -->
+                        <!-- Left Control -->
+                        <a class="left carousel-control" href="#testimonial_095" role="button" data-slide="prev">
+                        <span class="fa fa-chevron-left"></span>
+                        </a>
+                        <!-- Right Control -->
+                        <a class="right carousel-control" href="#testimonial_095" role="button" data-slide="next">
+                        <span class="fa fa-chevron-right"></span>
+                        </a>
+                     </div>
+                     <!-- End Paradise Slider -->
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- Testimonials Ends -->
+      <!-- Footer -->
+      <footer>
+         <div class="footer-upper">
+            <div class="container">
+               <div class="footer-links">
+                  <div class="row">
+                     <div class="col-lg-4">
+                        <div class="footer-about footer-margin">
+                           <div class="about-logo">
+                              <img src="images/xp.png" alt="Image">
+                           </div>
+                           <br><br>
+                           <div class="about-location">
+                              <ul>
+                                 <li><i class="flaticon-maps-and-flags" aria-hidden="true"></i> Location</li>
+                                 <li><i class="flaticon-phone-call"></i> (+91)8511511038</li>
+                                 <li><i class="flaticon-mail"></i> XPTravel@gmail.com</li>
+                              </ul>
+                           </div>
+                           <div class="footer-social-links">
+                              <ul>
+                                 <li class="social-icon"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                 <li class="social-icon"><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                 <li class="social-icon"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                 <li class="social-icon"><a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+                                 <li class="social-icon"><a href="#"><i class="fa fa-google" aria-hidden="true"></i></a></li>
+                              </ul>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-lg-4">
+                        <div class="footer-links-list footer-margin">
+                           <h3>Packages </h3>
+                           <ul>
+                              <li><a href="#Packages">RAJAJI NATIONAL PARK
+<i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
+                              <li><a href="#Packages">JIM CORBETT<i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
+                              <li><a href="#Packages">RANTHAMBORE NATIONAL PARK<i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
+                           </ul>
+                        </div>
+                     </div>
+                     <div class="col-lg-4">
+                        <div class="footer-links-list footer-margin">
+                           <h3>Resorts </h3>
+                           <ul>
+                              <li><a href="#Resorts">Solitaire resort
+<i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
+                              <li><a href="#Resorts">Jungle Treasure<i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
+                              <li><a href="#Resorts">De Florista<i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
+                              <li><a href="#Resorts">The Madhushaala<i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="copyright">
+            <div class="container">
+               <div class="row">
+                  <div class="col-lg-6">
+                     <div class="copyright-content">
+                        <p>Copyright © 2021. All rights reserved.</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <!-- Footer Ends --> 
+      <!-- Back to top start -->
+      <div id="back-to-top">
+         <a href="#"></a>
+      </div>
+      <!-- Back to top ends -->
+      <!-- *Scripts* -->
+      <script src="js/jquery-3.2.1.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/plugin.js"></script>
+      <script src="js/main.js"></script>
+      <script src="js/main-1.js"></script>
+      <script src="js/custom-countdown.js"></script>
+      <script src="js/preloader.js"></script>
+      <script src="js/custom-swiper2.js"></script>
+   </body>
+</html>
