@@ -205,14 +205,14 @@ a.btn-red{
   padding: 9px 24px;
   display: inline-block;
   background: #ffa500;
-  color: #fff;
+  color: #000;
   transition: all ease-in-out 0.3s;
   cursor: pointer;
 }
 a.btn-red:hover{
-  background: #a50a35;
+  background: #b17404;
   color: #fff;
-  border-color: #D60D45;
+  border-color: #b17404;
 }
 a.btn-white{
   background: transparent;
@@ -370,6 +370,9 @@ a.btn-white{
 
 @media(max-width: 991px){
   .section-title{width: 100%;}
+  .image-rev img {
+    height: 250px !important;
+}
 }
 
 .row.slick-slider{margin: 0 -15px;}
@@ -1189,11 +1192,13 @@ section.swiper-banner{
     box-shadow: 0 0 20px #ccc;
     z-index: 2;
 }
-.search-box h3{
-    background: #045394;
-    padding: 10px;
-    color: #fff;
+.search-box h3 {
+    background: none;
+    padding: 0px;
+    color: #000;
 }
+
+
 
 .table_item .form-group{
   position: relative;
@@ -2223,7 +2228,7 @@ li.social-icon a i{
   content: '\f176';
   font-family: 'fontawesome';
   font-size: 20px;
-  color: #005294;
+  color: #ffa500;
   top: 5px;
   left: 15px;
   z-index: 1;

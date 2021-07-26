@@ -1,6 +1,6 @@
 (function($){
 "use strict";
-	// barchart
+	// barchart 
 
 	var chart1 = new CanvasJS.Chart("barchart", {
 		animationEnabled: true,
