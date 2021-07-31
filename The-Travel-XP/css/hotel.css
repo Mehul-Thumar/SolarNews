@@ -2574,3 +2574,12 @@ b, strong {
     margin-top: 6px;
     margin-right: 8px;
 }
+
+ul.timeline .desc {
+    margin-left: 80px;
+}
+
+ul.timeline li {
+    border: 1px solid #ddd;
+    padding: 0 0 7px 0;
+}
