@@ -1923,7 +1923,7 @@ body.boxed {
 
 .ls {
 	background-color: #fff;
-	color: #a4a4a4
+	color: #000000;
 }
 
 .ls h1,
@@ -3539,7 +3539,7 @@ a.logo.vertical_logo img {
 }
 
 .services {
-	background-image: url(../images/services.jpg);
+	background-image: url(../images/07.jpg);
 	background-position: right top;
 	background-size: cover
 }
@@ -12163,4 +12163,26 @@ a.color-icon.border-icon:hover {
 
 .checkbox-slider--b-flat input+span:before {
 	box-shadow: none
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.tab-content.projects-content.cust_h img {
+    height: 417px;
+}
+.bg_teaser.light_teaser.with_shadow.with_corners.text-center.topmargin_25 .teaser_content {
+    height: 363px;
 }
