@@ -2860,7 +2860,7 @@ section .cs .theme_button:hover {
 .cs textarea,
 .cs select,
 .cs .form-control {
-	color: #fff
+	color: #000
 }
 
 .cs .form-control:-moz-placeholder {
@@ -3565,7 +3565,7 @@ a.logo.vertical_logo img {
 }
 
 .page_breadcrumbs.parallax {
-	background-image: url(../images/parallax/breadcrumbs.jpg)
+	background-image: url(../images/parallax/6.jpg);    background-position: center !important;
 }
 
 .page_testimonials.parallax {
@@ -6627,7 +6627,7 @@ aside .widget_mailchimp .form-inline .theme_button:hover {
 
 .contact-form.parallax {
 	padding: 50px 50px 35px;
-	background-image: url(../images/parallax/progress.jpg)
+	background-image: url(../images/parallax/SOLAR-FOR-RESIDENTIAL.jpg)
 }
 
 .contact-form-respond {
@@ -12185,4 +12185,22 @@ a.color-icon.border-icon:hover {
 }
 .bg_teaser.light_teaser.with_shadow.with_corners.text-center.topmargin_25 .teaser_content {
     height: 363px;
+}
+
+.zf-subContWrap.zf-topAlign input , .zf-subContWrap.zf-topAlign textarea {
+    width: 100%;
+}
+
+.zf-subContWrap.zf-topAlign ul li {
+    list-style: none;
+    margin-bottom: 11px;
+}
+li.zf-fmFooter {
+    text-align: center;
+}
+li.zf-fmFooter button.zf-submitColor {
+    background: #fff;
+    color: #000;
+    border: 0px solid;
+    padding: 10px 56px;
 }
