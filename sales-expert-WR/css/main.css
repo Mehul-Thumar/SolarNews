@@ -12175,11 +12175,28 @@ a.color-icon.border-icon:hover {
 
 
 
+li.zf-fmFooter {
+    clear: both;
+}
+button.zf-submitColor {
+    font-size: 16px;
+}
 
+a.quote_btn::after ,a.quote_btn::before {display:none !important;}
+a.quote_btn {
+    background: black;
+    color: #fff !important;
+    padding: 10px 31px !important;
+    border-radius: 40px;
+}
 
-
-
-
+a.quote_btn:hover {
+    background: #fff !important;
+    color: #000 !important;
+}
+.zf-templateWrapper li {
+    list-style: none !important;
+}
 .tab-content.projects-content.cust_h img {
     height: 417px;
 }
@@ -12204,3 +12221,4 @@ li.zf-fmFooter button.zf-submitColor {
     border: 0px solid;
     padding: 10px 56px;
 }
+
