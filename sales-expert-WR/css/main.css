@@ -4571,7 +4571,7 @@ article.post+article.post,
 }
 
 .format-quote {
-	background-image: url(../images/quote.jpg);
+	background-image: url(../img/bg1.jpg);
 	background-size: cover
 }
 
@@ -6222,9 +6222,9 @@ aside .widget_mailchimp .form-inline .theme_button:hover {
 }
 
 .bg_teaser .teaser_content {
-	margin: 0;
-	padding: 45px 35px;
-	z-index: 2
+    margin: 0;
+    padding: 30px 10px;
+    z-index: 2;
 }
 
 .bg_teaser .teaser_content>.media-left {
@@ -12222,3 +12222,20 @@ li.zf-fmFooter button.zf-submitColor {
     padding: 10px 56px;
 }
 
+
+
+
+blockquote.bold.blockquote-small {
+    margin: 9px 1px;
+    padding: 0 15px;
+}
+
+.container {
+    margin-bottom: 0px !important;
+  
+}
+
+section.ds.section_padding_110 .owl-carousel .owl-item img {
+    height: 149px;
+    object-fit: cover;
+}
