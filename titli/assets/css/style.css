@@ -5,7 +5,9 @@ body {
 	font-size: 16px;
 	font-family: rubik, sans-serif
 }
-
+body {
+    background-size: cover;
+}
 .h1,
 .h2,
 .h3,
@@ -142,11 +144,16 @@ p {
 .bg-primary {
 	background-color: #fffdf8!important
 }
-
+.bg-light {
+    background-color: #f9f8fe00!important;
+}
+/****
 .bg-light {
 	background-color: #f9f8fe!important
+}***/
+.main-nav {
+    background: #fff;
 }
-
 .bg-secondary {
 	background-color: #fff9e9!important
 }
